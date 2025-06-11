@@ -61,7 +61,7 @@ The above example uses secrets as plain strings. It is recommended to use a secr
 |--------------------|:--------:|------------|-----|---------|
 | `accessKey` | Y | Output | The Access Key to be used for publishing an Event Grid Event to a custom topic | `"accessKey"` |
 | `topicEndpoint` | Y | Output | The topic endpoint in which this output binding should publish events | `"topic-endpoint"` |
-| `azureTenantId` | Y | Input | The Azure tenant ID of the Event Grid resource  | `"tenentID"` |
+| `azureTenantId` | Y | Input | The Azure tenant ID of the Event Grid resource  | `"tenantID"` |
 | `azureSubscriptionId` | Y | Input | The Azure subscription ID of the Event Grid resource  | `"subscriptionId"` |
 | `azureClientId` | Y | Input | The client ID that should be used by the binding to create or update the Event Grid Event Subscription and to authenticate incoming messages | `"clientId"` |
 | `azureClientSecret` | Y | Input | The client id that should be used by the binding to create or update the Event Grid Event Subscription and to authenticate incoming messages | `"clientSecret"` |
